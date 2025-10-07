@@ -1,0 +1,44 @@
+.div_titulo{
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.div_padre_formacion{
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    flex-direction: column;
+    
+}
+
+.div_informacion{
+    width: 300px;
+    height: 170px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    display: flex;
+    
+}
+.informacion_card{
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.div_icono{
+    margin-right: 10px;
+
+}

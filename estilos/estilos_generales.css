@@ -1,0 +1,26 @@
+/* Estilos generales */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background :linear-gradient(90deg,#2F3E44,#769BAA);
+     
+}
+
+h1,h2,p{
+    color: #ffffff;
+    
+}
+a{
+    text-decoration: none;
+}
+.subtitulos{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
