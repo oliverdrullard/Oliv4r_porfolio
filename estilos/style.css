@@ -13,6 +13,11 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    border-left: none;
+    border-right: none;
+    height: 100px;
+    margin-top: 10px;
 
 }
 .div_padre > h1{
@@ -25,6 +30,7 @@ nav{
     justify-content: center;
     align-items: center;
     padding-right: 10px;
+    
 }
 .prueva_boton{
     display: flex;
@@ -98,6 +104,7 @@ nav{
 }
 #avatar{
     width: 200px;
+    min-width: 200px;
     height: 200px;
     border-radius: 100%;
     
@@ -153,7 +160,7 @@ nav{
 .proyectos{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: px;
+    gap: 20px;
 
 }
 /*Pie de pagina*/
@@ -172,4 +179,44 @@ nav{
 
 .pie_pagina p{
     color: #000;
+}
+
+/* resposy */
+
+@media (max-width: 1200px){
+    .tecnologias{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr  ;
+        gap: 20px;
+
+    }
+}
+
+@media (max-width: 953px){
+    .herramientas{
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        gap: 20px;
+    }
+    .div_padre > h1{
+        font-size: 30px;
+
+    }
+}
+
+@media (max-width: 766px){
+    .proyectos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 677px){
+    .tecnologias{
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        gap: 20px;
+
+    }
 }
